@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <title>Chi&#39;s Blog</title>
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
         <header>
@@ -34,10 +35,10 @@
         <ul role="list" class="articles__list flow"> <li>
       <div class="card">
         <img src="/assets/blog/article-2.jpg" alt="This is a test" class="card-img">
-          <a class="card-title" href="/blog/new-testing-article.md/">new testing article</a>
+          <a class="card-title" href="/blog/newtesting/">New testing!!</a>
           <div class="card-content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
-            <p>12 Dec 2022</p>
+            <p>24 Aug 2022</p>
           </div>
       </div>
       </li> <li>
@@ -47,15 +48,6 @@
           <div class="card-content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
             <p>15 May 2021</p>
-          </div>
-      </div>
-      </li> <li>
-      <div class="card">
-        <img src="/assets/images/post-photo.jpg" alt="This is a test" class="card-img">
-          <a class="card-title" href="/blog/new_article/">My First Article</a>
-          <div class="card-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
-            <p>1 May 2021</p>
           </div>
       </div>
       </li></ul>
@@ -89,5 +81,18 @@
 </nav>
 
 </footer>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
 </body>
 </html>
