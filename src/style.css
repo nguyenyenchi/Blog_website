@@ -202,7 +202,7 @@ footer {
 
 .card {
   display: grid;
-  grid-column-gap: 1.5em;
+  grid-column-gap: 1em;
   grid-template-columns: 1fr 8fr;
   grid-template-rows: min-content auto;
   grid-template-areas: "img title"
