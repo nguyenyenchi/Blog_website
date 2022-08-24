@@ -1,7 +1,7 @@
 ---
 title: New testing!!
 author: Kevin Powell
-date: 2021-05-15
+date: 2022-08-24
 tags: ["post", "featured"]
 image: /assets/blog/article-2.jpg
 imageAlt: This is a test
