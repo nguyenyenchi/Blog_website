@@ -1,0 +1,21 @@
+--- 
+title: Chi's Blog
+layout: 'base.njk'
+---
+   
+
+
+    <p class="intro">Hi. I'm Chi. I'm currently a data science student, and an active learner on her way to
+      seeking knowledge and sharing it to the world. This site is where I record that learning journey.
+     </p>
+
+
+
+        <h2 class="section-title">From the blog</h2>
+
+        <ul role="list" class="articles__list flow">
+        {%- for post in collections.featured  | reverse  -%}
+            {% include 'article-snippet.njk' %}
+        {%- endfor  -%}
+
+        </ul>

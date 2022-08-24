@@ -1,0 +1,10 @@
+ <li>
+      <div class="card">
+        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="card-img">
+          <a class="card-title" href="{{ post.url }}">{{ post.data.title }}</a>
+          <div class="card-content">
+            <p>{{ post.data.description }}</p>
+            <p>{{ post.data.date | postDate}}</p>
+          </div>
+      </div>
+      </li>
