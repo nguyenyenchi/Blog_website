@@ -182,7 +182,7 @@ footer{
 }
 
 .articles__list {
-    --flow-spacer: 3rem;
+    --flow-spacer: 1rem;
     margin: 3rem 0;
 }
 

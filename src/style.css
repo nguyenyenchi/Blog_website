@@ -182,7 +182,7 @@ footer{
 }
 
 .articles__list {
-    --flow-spacer: 3rem;
+    --flow-spacer: 1rem;
     margin: 3rem 0;
 }
 
@@ -202,7 +202,7 @@ footer {
 
 .card {
   display: grid;
-  grid-column-gap: 1em;
+  grid-column-gap: 1.5em;
   grid-template-columns: 1fr 8fr;
   grid-template-rows: min-content auto;
   grid-template-areas: "img title"
