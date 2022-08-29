@@ -176,10 +176,10 @@ header{
   font-size: 0.8rem;
   color: black;
   justify-content: center;
-  margin: 1.5;
+  margin: 1;
   align-items: center;
   display: flex;
-  padding: 0.5em;
+  padding-bottom: 0.5em;
 
 }
 
@@ -330,20 +330,17 @@ a {
     }
 
 hr {
-    width: 93%;
-    /*height: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #b7d0e2;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 54%;
 }
 
-
+/*
 .footer-line{ 
   
-  width: 52%;
-  margin-left: auto;
-  margin-right: auto;
-}
+  
+  
+}*/
