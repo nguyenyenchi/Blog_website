@@ -16,12 +16,13 @@
             <li><a href="/blog/">Blog</a></li>
             <li><a href="/about/">About</a></li>
             <!-- example another page needed-->
-            <li><a href="/about/">Projects</a></li>
+            <!--
+            <li><a href="/about/">Projects</a></li> -->
           </ul>
         </nav>
     </header>
     <main>
-        
+        <hr>
 <ul role="list" class="articles__list flow"> <li>
       <div class="card">
         <img src="/assets/images/sent-mail-icon-black.svg" alt="looking good!" class="card-img">
@@ -62,8 +63,21 @@
     </main>
     
  <footer>
+     <hr class="footer-line"> 
+    <!--email bar-->
+      <div class="email-subs">
+        <form name="contact" method="POST" data-netlify="true">
+            <input
+              type="email"
+              class="search-bar__input"
+              placeholder="me@email.com"
+              name="email" /></label>
+            <button type="submit">Subscribe</button>
+          </p>
+        </form>
+      </div>  
+      
       <nav>
-
       <ul class="social-links">
 
                 <li>
@@ -84,9 +98,8 @@
                   </a>
                 </li>
         </ul>
-        
-<p class="footer-title">&copy 2022 Yen Chi Nguyen</p>
-</nav>
+        <p class="footer-title">&copy 2022 Yen Chi Nguyen</p>
+      </nav>
 
 </footer>
 
