@@ -2,7 +2,7 @@
 title: Chi's Blog
 layout: 'base.njk'
 ---
-<hr>
+
 <ul role="list" class="articles__list flow">
   {%- for post in collections.post  | reverse  -%}
     {% include 'article-snippet.njk' %}
