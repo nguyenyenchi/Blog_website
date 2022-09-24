@@ -345,21 +345,3 @@ hr {
   
 }*/
 
-/* about-page */
-.info {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: min-content auto;
-  grid-template-areas: "img info";
-  /*background-color: pink;*/
-  grid-column-gap: 0;
-}
-
-.profile-img {
-  grid-area: img;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  max-width: 100%;
-  max-height: 30%;
-}
