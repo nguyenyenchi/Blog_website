@@ -5,7 +5,7 @@ date: 2022-05-06
 tags: ["post"]
 image: /assets/images/OliverBook.jpg
 imageAlt: Book Cover
-description: "Every moment of life is a last time" 
+description: "Every moment is a last time" 
 ---
 Recently I’ve read the book titled “Four Thousand Weeks - Time Management for Mortals” written by Oliver Burkeman. The praises for the book from several writers include: “This is the most important book ever written about time management.” (Adam Grant), “It invites nothing less than a new relationship with time – and with life itself.” (Krista Tippett), or “Oliver Burkeman provides an important and insightful reassessment of productivity” (Cal Newport). The book is indeed like how it was praised, and much more.
 Before and during reading this book, I’ve hoped that it will help me answer the following questions:
