@@ -5,7 +5,7 @@ date: 2022-08-23
 tags: ["projects"]
 image: /assets/images/website.png
 imageAlt: Site Photo
-description: 
+description: The birth of this site
 ---
 # Start 
 This project was started thanks to:
