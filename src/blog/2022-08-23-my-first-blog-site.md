@@ -1,5 +1,5 @@
 ---
-title: Building a blog site with HTML, CSS, Eleventy, Netflify CMS 
+title: A blog site built with HTML, CSS, Eleventy, & Netflify CMS 
 author: Yen Chi Nguyen
 date: 2022-08-23
 tags: ["projects"]
