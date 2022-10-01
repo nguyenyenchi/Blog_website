@@ -9,13 +9,19 @@ layout: 'base.njk'
       seeking knowledge and sharing it to the world. This site is where I record that learning journey.
      </p>
      -->
-
- 
-
         <h2 class="section-title">From the blog</h2>
 
         <ul role="list" class="articles__list flow">
         {%- for post in collections.featured  | reverse  -%}
+            {% include 'article-snippet.njk' %}
+        {%- endfor  -%}
+
+        </ul>
+
+        <h2 class="section-title">Projects</h2>
+
+        <ul role="list" class="articles__list flow">
+        {%- for post in collections.projects  | reverse  -%}
             {% include 'article-snippet.njk' %}
         {%- endfor  -%}
 
