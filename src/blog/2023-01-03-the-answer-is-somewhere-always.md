@@ -8,8 +8,6 @@ tags:
 image: /assets/images/coding.jpeg
 imageAlt: Error
 ---
-On coding practice
-
 Some lessons I learned recently about programming include:
 
 * Look closely enough at the documentation, and you find out the paths to make the codes run and produce some outputs
