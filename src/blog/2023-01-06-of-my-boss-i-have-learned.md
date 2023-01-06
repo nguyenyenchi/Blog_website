@@ -6,8 +6,7 @@ author: Yen Chi Nguyen
 date: 2023-01-06T12:55:33.858Z
 tags:
   - post
-imageAlt:
-  - Error loading image
+imageAlt: ""
 ---
 **To laugh**. 
 
