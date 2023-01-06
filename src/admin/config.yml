@@ -15,8 +15,8 @@ collections:
       - { label: "Author", name: "author", widget: "string" , default: "Yen Chi Nguyen" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Image caption", name: "imageAlt", widget: "string", default: ["Error loading image"], required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
 publish_mode: editorial_workflow  
