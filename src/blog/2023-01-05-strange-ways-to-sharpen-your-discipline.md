@@ -35,4 +35,6 @@ imageAlt: Error
 Happy to hear other weird ways to keep building self-discipline that you have. 
 
 Cheers,
+
+
 Chi
