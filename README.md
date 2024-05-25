@@ -3,7 +3,7 @@ This repo stores the files I used to build my first personal [website](https://n
 ## Start
 This project was started thanks to:
 
-- My love for building my own blog where I can share my data learning journey and other interests to others.
+- My love for building my own blog where I can share my learnings in my life and data science journey to others.
 - My chance to practice HTML & CSS I learned at uni.
 - My preference to write posts in Markdown.
 ## Implementation
