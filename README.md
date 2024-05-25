@@ -1,4 +1,4 @@
-This repo stores the files I used to build my first personal [website](https://nguyenyenchicom.netlify.app/) for blogging.
+This repo stores the files I used to build my first personal [website](https://nguyenyenchicom.netlify.app/) with HTML, CSS, Eleventy, & Netlify CMS for blogging. 
 
 ## Start
 This project was started thanks to:
